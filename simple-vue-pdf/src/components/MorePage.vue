@@ -14,7 +14,7 @@
 
 import pdf from 'vue-pdf'
 
-var loadingTask = pdf.createLoadingTask('https://cdn.mozilla.net/pdfjs/tracemonkey.pdf');
+var loadingTask = pdf.createLoadingTask('./pdfFiles/JavaScript高级程序设计（第3版）非扫描版.pdf');
 
 export default {
 	components: {
